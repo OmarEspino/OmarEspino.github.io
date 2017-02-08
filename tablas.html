@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Tablas HTML</title>
+    <!-- este es el estilo externo-->
+    <link href="estilos.css" type="text/css" rel="stylesheet">
+    <!-- este es el estilo interno-->
+    <!-- este no es recomendado, pero valido
+    <style>
+        tr {
+        background-color: blue;
+        }
+    </style>
+    -->
 </head>
 <body>
     <h1>Ejemplo de tablas en HTML</h1>
     
     <table>
         <thead>
-            <tr>
+            <tr class="verde">
                 <th>Materia</th>
                 <th>Creditos</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Arquitectura</td>
+                <td>Arquitectura A</td>
                 <td>10</td>
             </tr>
             <tr>
@@ -28,8 +38,10 @@
                 <td>8</td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
+        <tfoot  >
+            <!-- este es el estilo en linea
+            <tr style="background: green" >-->
+                <tr class="verde">
                 <td>Total</td>
                 <td>28</td>
             </tr>
