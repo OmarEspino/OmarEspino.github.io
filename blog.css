@@ -1,0 +1,40 @@
+#especial{
+  border-bottom: 1px solid dodgerblue;
+  font-family: 'Bree Serif', serif;
+}
+
+#tablaencabezado{
+    font-family: 'Bree Serif', serif;
+    color: dodgerblue;
+    position: relative;
+    left: 500px;
+}
+
+section{
+    border-bottom: 1px solid dodgerblue; 
+}
+
+a{
+    text-decoration: none;
+}
+
+#entradas{
+    border: 1px solid dodgerblue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 1000px;
+    background-color: white;
+}
+
+body{
+    background-color: lavender;
+}
+
+nav{
+ text-align: center;
+ font-family: 'Bree Serif', serif;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+
